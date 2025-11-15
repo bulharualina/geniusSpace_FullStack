@@ -48,6 +48,7 @@
     --color-primary-dark: #31261A;
     --color-secondary-dark: #A28268;
     
+    
 }
 
 
@@ -281,6 +282,25 @@ ul{
     font-size: 14px;
     font-weight: 300;
 }
+/* Carousel */
+.carousel-button{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%; 
+    background-color: transparent;
+    border: 1px solid var(--color-primary-dark);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--color-primary-dark);
+}
+
+
+.carousel-button:hover{
+    background-color: var(--color-primary-dark);
+    fill: var(--color-primary-light);
+}
 
 /* Contact section */
 .contact-title {
@@ -294,7 +314,13 @@ ul{
     font-weight: 300;
     text-decoration: none;
 }
-
+.address-icons {
+    fill: var(--color-primary-light);
+}
+.address-icons:hover {
+    fill: var(--color-brand-normal);
+    
+}
 .address-link:hover {
     color: var(--color-brand-normal);
     
