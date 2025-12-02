@@ -13,11 +13,38 @@
         transform: translateX(0);
     }
      
-    &__btn-close {
-        position: absolute;
-        top: 16px;
-        right: 24px;
-       
+    &__container{
+        padding: 16px 24px;
     }
+
+    &__logo {
+        
+        margin-bottom: 32px; 
+    }
+        &__nav {
+           
+            display: flex;
+            flex-direction: column;
+           
+        }
+
+                &__menu {
+                        display: flex;
+                        
+                    
+                }
+
+         &__btn-close {
+             background-color: transparent;
+             border: none;
+             position: absolute;
+             top: 40px;
+             right: 40px;
+             stroke: var(--color-brand-light);
+             fill: none;
+         }
+
+         
+         
 }
 
