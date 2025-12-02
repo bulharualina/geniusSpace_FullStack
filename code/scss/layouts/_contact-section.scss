@@ -2,7 +2,7 @@
 
 .contact-section {
     padding-bottom: 96px;
-
+    
     &__container {
             display: flex;
             flex-direction: column;
@@ -16,7 +16,11 @@
         }
 
         &__title {
-            margin-bottom: 16px;
+            margin-bottom: 8px;
+            text-align: center;
+                @media screen and (min-width: $bp-desktop) {
+                    margin-bottom: 16px;
+                }
         }
 
         &__form-field {

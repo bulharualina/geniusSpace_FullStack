@@ -2,9 +2,19 @@
     color: var(--color-primary-light);
     text-decoration: none;
     transition: color 0.3s;
+    &:hover {
+            color: var(--color-brand-normal);
+    
+        }
 }
 
-.link:hover {
-    color: var(--color-brand-normal);
+.mobile-link{
+    color: var(--color-primary-dark);
+    text-decoration: none;
+    transition: color 0.3s;
 
-}
+    &:hover {
+        color: var(--color-brand-normal);
+
+    }}
+
