@@ -1,12 +1,12 @@
 .circleTextsvg {
-     position: absolute;
-     bottom: 0;
-     right: 0;
-     margin: 13px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 13px;
 
-   &__textSVG{
-    font-size: 21px;
-    fill: var(--color-secondary-dark);
-   }
+    &__textSVG {
+        font-size: 21px;
+        fill: var(--color-secondary-dark);
+    }
 
- }
+}

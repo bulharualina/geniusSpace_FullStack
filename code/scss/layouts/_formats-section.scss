@@ -3,9 +3,10 @@
 .formats-section{
     &__title {
             margin-bottom: 24px;
-        @media screen and (min-width: $bp-desktop) {
-                margin-bottom: 80px;
-            }
+            
+                @media screen and (min-width: $bp-desktop) {
+                    margin-bottom: 80px;
+                }
    
         }
 

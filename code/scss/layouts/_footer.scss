@@ -15,13 +15,12 @@
 
     &::before,
         &::after {
-            @media screen and (min-width: $bp-desktop){
-                background-repeat: no-repeat;
+            @media screen and (min-width: $bp-desktop) {
+                    background-repeat: no-repeat;
                     bottom: 0;
                     position: absolute;
                     content: '';
-            }
-            
+                }
         }
 
     &::before {
@@ -32,35 +31,33 @@
             content: '';
             width: 92px;
             height: 196px;
-            
+        
             background-image: url(../../images/decor-bread-footer.png);
         
-        @media screen and (min-width: $bp-desktop){
-            width: 180px;
+            @media screen and (min-width: $bp-desktop) {
+                width: 180px;
                 height: 120px;
                 left: 0;
                 background-image: url(../../images/decor-bread-small.png);
-        }
-            
-        
+            }
     }
 
     &::after {
         background-repeat: no-repeat;
-            bottom: 0;
-            position: absolute;
-            content: '';
-    width: 112px;
+        bottom: 0;
+        position: absolute;
+        content: '';
+        width: 112px;
         height: 120px;
         right: 0;
         background-image: url(../../images/decor-bread-mobile.png);
-        
+    
         @media screen and (min-width: $bp-desktop) {
-                width: 380px;
-                    height: 190px;
-                    right: 0;
-                    background-image: url(../../images/decor-bread-large.png);
-            }
+            width: 380px;
+            height: 190px;
+            right: 0;
+            background-image: url(../../images/decor-bread-large.png);
+        }
     }
 
 
